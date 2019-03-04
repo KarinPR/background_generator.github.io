@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1>Background Generator</h1>
+	<div id="Radial">
+		<p>Radial</p>
+	<input class = "color1" type="color" name="color1" value="#0000ff">
+	<input class = "color2" type="color" name="color2" value="#ff0000">
+	<input class = "color3" type="color" name="color3" value="#00ff00">
+	</div>
+	<div id="Linear">
+		<p>Linear</p>
+	<input class = "color4" type="color" name="color4" value="#0000ff">
+	<input class = "color5" type="color" name="color5" value="#ff0000">
+	<input class = "color6" type="color" name="color6" value="#00ff00">
+	</div>
+	<div class="buttons">
+		<p>Random</p>
+	<button class= "btn btnLin" onclick="rndLinearGradient(0, 255)"> Linear Random Background</button>
+	<button class= "btn btnRad" onclick="rndRadialGradient(0, 255)"> Radial Random Background</button>
+	</div>
+	<h2>Current CSS Background</h2>
+	<h3></h3>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
